@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Galeriados">
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="@color/colorPrimary"
+            android:text="Primero Elija la imagen desde el boton Elegir imagen"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="Elegir imagen"
+            android:id="@+id/btnBuscar" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_weight="1"
+            android:id="@+id/imageView" />
+
+
+        <!--<EditText-->
+        <!--android:id="@+id/editText"-->
+        <!--android:hint="Ingresa un Nombre"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="@color/colorPrimary"
+            android:text="Segundo Pulse Subir Imagen para mandarla"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="10dp"
+            android:text="Subir Imagen"
+            android:id="@+id/btnSubir" />
+        <Button
+            android:id="@+id/recorrer"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorPrimary"
+            android:text="Volver"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/salir"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorPrimary"
+            android:text="Volver"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
